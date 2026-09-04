@@ -1,0 +1,6 @@
+{
+  "name": "CropShield",
+  "description": "AI-powered crop health early-warning and disease detection platform for farmers and agricultural authorities.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
