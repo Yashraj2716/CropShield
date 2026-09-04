@@ -1,0 +1,29 @@
+# CropShield Backend Dependencies (Python 3.10+)
+# Install with: pip install -r backend/requirements.txt
+
+# Web API Framework
+fastapi==0.110.0
+uvicorn[standard]==0.28.0
+pydantic==2.6.4
+pydantic-settings==2.2.1
+python-multipart==0.0.9
+
+# HTTP & Utilities
+httpx==0.27.0
+python-dotenv==1.0.1
+
+# Database (SQLAlchemy ORM + SQLite/PostgreSQL support)
+sqlalchemy==2.0.28
+psycopg2-binary==2.9.9
+
+# Machine Learning & Image Processing (Phases 5-8)
+numpy==1.26.4
+pillow==10.2.0
+torch==2.2.1
+torchvision==0.17.1
+scikit-learn==1.4.1.post1
+pandas==2.2.1
+
+# Security & Password Hashing
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
